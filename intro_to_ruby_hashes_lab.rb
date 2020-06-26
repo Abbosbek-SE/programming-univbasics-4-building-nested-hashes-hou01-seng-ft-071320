@@ -31,7 +31,7 @@ def monopoly_with_third_tier
 end
 
 def monopoly_with_fourth_tier
-  hash[:railroads] = {
+ {:railroads => {
       :pieces => 4,
       :rent_in_dollars => {
         :one_pieces_owned => 25,
@@ -46,4 +46,5 @@ def monopoly_with_fourth_tier
         :shortline_railroad => {:mortgage_value => 800}
       }
     }
+ }
 end
